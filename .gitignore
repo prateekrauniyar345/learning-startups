@@ -1,0 +1,18 @@
+# ignore all the ._ file
+._*
+*._
+
+
+# ignore the .DS_Store file and VS Code settings
+.DS_Store
+.vscode/
+
+
+# also exclude node_modules and log files and .agents folder
+node_modules/
+*.log
+.agents/
+
+
+# also ignire the clean.sh file
+clean.sh
